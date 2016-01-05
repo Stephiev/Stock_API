@@ -8,14 +8,15 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "browserify js/app.jsx -o build/bundle.js"
+    "build": "browserify js/app.jsx -o build/bundle.js"
   },
   "author": "Stephanie Vasquez-Soltero",
   "license": "ISC",
   "devDependencies": {
     "browserify": "^12.0.1",
-    "reactify": "^1.1.1",
-    "react": "^0.14.5"
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5",
+    "reactify": "^1.1.1"
   },
   "browserify": {
     "transform": [

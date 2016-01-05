@@ -1,0 +1,15 @@
+{
+  "name": "stocksplosion",
+  "version": "1.0.0",
+  "description": "Building front end to stock API",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Stephanie Vasquez-Soltero",
+  "license": "ISC"
+}
